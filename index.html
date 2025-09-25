@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="uk" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
   <title>Homepage | Department of Information and Communication technologies</title>
@@ -7,9 +7,156 @@
   <script src="js/main.js"></script>
 </head>
 <body>
-  <h1>Вітаємо на сайті кафедри Іформаційних і коммунікаційних технологій ім. О.О. Зеленського!</h1>
-  <p>Це перший тестовий варіант нашого навчального проекту.</p>
-  <p> Практина робота №1 </p>
-  <img src="images/logo.svg" alt="Логотип кафедри">
-</body>
-</html>
+
+<!--shapka-->
+  <header>
+    <div class="logo">
+      <img src="images/logo.svg" alt="Логотип кафедри">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#specialties">Наші спеціальності</a></li>
+        <li><a href="#numbers">Якщо в числах</a></li>
+        <li><a href="#science">Наука та інновації</a></li>
+        <li><a href="#reviews">Відгуки</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+        <li><a href="#news">Новини</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <a href="#"><img src="images/icon.png" alt="Пошук" title="Пошук"></a>
+      <a href="?lang=ua">UA</a> | <a href="?lang=en">EN</a>
+    </div>
+  </header>
+
+  <!--osnova-->
+  <main>
+
+    <h1>Вітаємо на сайті кафедри Іформаційних і коммунікаційних технологій ім. О.О. Зеленського!</h1>
+    <p>Це перший тестовий варіант нашого навчального проекту.</p>
+    <p> Практина робота №1 </p>
+
+  <!--banner-->
+    <section id="banner">
+      <img src="images/banner.jpg" alt="Банер кафедри" title="Ласкаво просимо на кафедру ІКТ">
+    </section>
+
+    <!--specialosti-->
+    <section id="specialties">
+      <h2>Наші спеціальності</h2>
+      <p>Ми готуємо сучасних ІТ-фахівців за кількома напрямками:</p>
+      <div class="specialty-cards">
+        <article>
+          <h3>Комп'ютерні науки</h3>
+          <p>Поглиблене вивчення алгоритмів, штучного інтелекту та програмування.</p>
+        </article>
+        <article>
+          <h3>Кібербезпека</h3>
+          <p>Захист інформаційних систем, мереж і даних.</p>
+        </article>
+        <article>
+          <h3>Інженерія програмного забезпечення</h3>
+          <p>Створення сучасних додатків і комплексних систем.</p>
+        </article>
+      </div>
+    </section>
+
+    <!--if v chislax-->
+    <section id="numbers">
+      <h2>Якщо в числах</h2>
+      <div class="numbers-cards">
+        <article>
+          <h3>>500+<</h3>
+          <p>Студентів навчаються щороку</p>
+        </article>
+        <article>
+          <h3>>30+<</h3>
+          <p>Викладачів із науковими ступенями</p>
+        </article>
+        <article>
+          <h3>>20+</h3>
+          <p>Років досвіду у сфері ІТ-освіти</p>
+        </article>
+      </div>
+    </section>
+
+    <!--vsdgyku-->
+    <section id="reviews">
+      <h2>Відгуки випускників</h2>
+      <div class="review-cards">
+        <article>
+          <p>"..."</p>
+          <cite>-jkjkj</cite>
+        </article>
+        <article>
+          <p>"..."</p>
+          <cite>-jkjkj</cite>
+        </article>
+        <article>
+          <p>"..."</p>
+          <cite>-jkjkj</cite>
+        </article>
+      </div>
+      <audio controls>
+        <source src="audio/audio.mp3" type="audio/mp3">
+      </audio>
+    </section>
+
+    <!--nayka i inovacii-->
+    <section id="science">
+      <h2>Наука та інновації</h2>
+      <h3>Сучасні дослідження та проєкти</h3>
+      <p>Наші викладачі та студенти беруть участь у наукових проєктах, співпрацюють з бізнесом та впроваджують інноваційні рішення.</p>
+      <button>Дізнатися більше</button>
+      <img src="images/science.jpg" alt="Лабораторія кафедри" title="Наукові дослідження">
+    </section>
+
+    <!--nam dovir-->
+    <section id="partners">
+      <h2>Нам довіряють</h2>
+      <div class="partner-logos">
+        <img src="images/a1.png" alt="a1" title="a1">
+        <img src="images/a3.png" alt="a2" title="a2">
+        <img src="images/a3.png" alt="a3" title="a3">
+      </div>
+    </section>
+
+    <!--contacts-->
+    <section id="contacts">
+      <h2>Контакти</h2>
+      <p>Адреса: м. Харків.вул. Вадима Манька,17
+      НАУ ім. О.О.Зеленського "ХАІ"
+      Кафедра інформаційно-комунікаційних тезнологій №504</p>
+      <p>Телефон: +38 (099) 502-57-75</p>
+      <p>Пошта: mailto:k504@khai.edu</p>
+    </section>
+
+    <!--news-->
+    <section id="news">
+      <h2>Новини</h2>
+      <div class="news-carousel">
+        <article>
+          <h3>День відкритих дверей</h3>
+          <p>Запрошуємо майбутніх абітурієнтів ** month!</p>
+        </article>
+        <article>
+          <h3>...</h3>
+          <p>blablabla</p>
+        </article>
+      </div>
+      <video autoplay muted loop controls>
+        <source src="video/video.mp4" type="video/mp4">
+      </video>
+    </section>
+
+  </main>
+
+<!--end-->
+  <footer>
+    <img src="images/logo.svg" alt="Логотип кафедри">
+    <p>Адреса: м. Харків.вул. Вадима Манька,17 НАУ ім. О.О.Зеленського "ХАІ" Кафедра інформаційно-комунікаційних тезнологій №504 | Телефон: +38 (099) 502-57-75 | Пошта: mailto:k504@khai.edu</p>
+  </footer>
+
+
+  </body>
+  </html>
