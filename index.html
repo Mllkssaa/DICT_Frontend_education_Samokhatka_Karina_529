@@ -11,10 +11,12 @@
 <!--shapka-->
   <header>
     <div class="logo">
-      <img src="images/logo.svg" alt="Логотип кафедри">
+      <a href="index.html" class="home-link">
+        <img src="images/logo.svg" alt="Department of Information and Communication technologies">
+      </a>
     </div>
     <nav>
-      <ul>
+      <ul class="main-menu">
         <li><a href="#specialties">Наші спеціальності</a></li>
         <li><a href="#numbers">Якщо в числах</a></li>
         <li><a href="#science">Наука та інновації</a></li>
@@ -23,9 +25,14 @@
         <li><a href="#news">Новини</a></li>
       </ul>
     </nav>
-    <div class="header-tools">
-      <a href="#"><img src="images/icon.png" alt="Пошук" title="Пошук"></a>
-      <a href="?lang=ua">UA</a> | <a href="?lang=en">EN</a>
+    <div class="search">
+      <img src="images/search.svg" alt="Search">
+    </div>
+    <div class="language">
+      <ul class="lang-wrapper">
+        <li class="ua"><a href>UA</a></li>
+        <li class="en"><a href>EN</a></li>
+      </ul>
     </div>
   </header>
 
@@ -37,9 +44,32 @@
     <p> Практина робота №1 </p>
 
   <!--banner-->
-    <section id="banner">
-      <img src="images/banner.jpg" alt="Банер кафедри" title="Ласкаво просимо на кафедру ІКТ">
+    <section class="banner">
+      <div class="banner-text">
+        <h1>Створюємо майбутнє.<br> Тут і зараз!</h1>
+        <p>
+          Вибери не просто освіту - обери шлях до свого технологічного майбутнього!<br>
+          Кафедра ІКТ ХАІ - це місце, де ідеї стають реальністю, а знання відкривають<br>
+          двері до кар'єри мрії. Почни свій шлях вже сьогодні!
+        </p>
+        <a href="#" class="btn">Хочу поступити</a>
+      </div>
+      <div class="banner-img">
+      <img src="images/banner.png" alt="Банер" title="Ласкаво просимо на кафедру ІКТ">
+      </div>
     </section>
+
+
+    <!--section-->
+    <section id="program">
+      <h2>Освітня програма спеціальності "Інжинирінг і програмування інфокомунікаційних систем</h2>
+    </section>
+
+     <section id="science">
+       <div class="image-wrapper">
+         <img src="images/science.png" alt="Наука та інновації">
+       </div>
+     </section>
 
     <!--specialosti-->
     <section id="specialties">
@@ -66,15 +96,15 @@
       <h2>Якщо в числах</h2>
       <div class="numbers-cards">
         <article>
-          <h3>>500+<</h3>
+          <h3>500+</h3>
           <p>Студентів навчаються щороку</p>
         </article>
         <article>
-          <h3>>30+<</h3>
+          <h3>30+</h3>
           <p>Викладачів із науковими ступенями</p>
         </article>
         <article>
-          <h3>>20+</h3>
+          <h3>20+</h3>
           <p>Років досвіду у сфері ІТ-освіти</p>
         </article>
       </div>
@@ -85,40 +115,48 @@
       <h2>Відгуки випускників</h2>
       <div class="review-cards">
         <article>
-          <p>"..."</p>
-          <cite>-jkjkj</cite>
+          <p>"Тут буде відгук випускника."</p>
+          <cite>- Ім’я Прізвище</cite>
         </article>
         <article>
-          <p>"..."</p>
-          <cite>-jkjkj</cite>
+          <p>"Тут буде відгук випускника."</p>
+          <cite>- Ім’я Прізвище</cite>
         </article>
         <article>
-          <p>"..."</p>
-          <cite>-jkjkj</cite>
+          <p>"Тут буде відгук випускника."</p>
+          <cite>- Ім’я Прізвище</cite>
         </article>
       </div>
       <audio controls>
-        <source src="audio/audio.mp3" type="audio/mp3">
+        <source src="audio/file_example_MP3_700KB" type="audio/mp3">
       </audio>
     </section>
 
-    <!--nayka i inovacii-->
-    <section id="science">
-      <h2>Наука та інновації</h2>
-      <h3>Сучасні дослідження та проєкти</h3>
-      <p>Наші викладачі та студенти беруть участь у наукових проєктах, співпрацюють з бізнесом та впроваджують інноваційні рішення.</p>
-      <button>Дізнатися більше</button>
-      <img src="images/science.jpg" alt="Лабораторія кафедри" title="Наукові дослідження">
-    </section>
+
 
     <!--nam dovir-->
-    <section id="partners">
+    <section id="links">
       <h2>Нам довіряють</h2>
-      <div class="partner-logos">
-        <img src="images/a1.png" alt="a1" title="a1">
-        <img src="images/a3.png" alt="a2" title="a2">
-        <img src="images/a3.png" alt="a3" title="a3">
-      </div>
+      <ul>
+        <li>
+          <a href><img src="images/nix.svg" alt="nix"></a>
+        </li>
+        <li>
+          <a href><img src="images/sigma.svg" alt="Sigma"></a>
+        </li>
+        <li>
+          <a href><img src="images/gl.svg" alt="Global Logic"></a>
+        </li>
+        <li>
+          <a href><img src="images/epam.svg" alt="Epam"></a>
+        </li>
+        <li>
+          <a href><img src="images/softserve.svg" alt="Soft Serve"></a>
+        </li>
+        <li>
+          <a href><img src="images/dataart.svg" alt="Data Art"></a>
+        </li>
+      </ul>
     </section>
 
     <!--contacts-->
@@ -128,21 +166,76 @@
       НАУ ім. О.О.Зеленського "ХАІ"
       Кафедра інформаційно-комунікаційних тезнологій №504</p>
       <p>Телефон: +38 (099) 502-57-75</p>
-      <p>Пошта: mailto:k504@khai.edu</p>
+      <p>Пошта: <a href="mailto:k504@khai.edu">k504@khai.edu</a></p>
     </section>
 
     <!--news-->
     <section id="news">
       <h2>Новини</h2>
-      <div class="news-carousel">
-        <article>
-          <h3>День відкритих дверей</h3>
-          <p>Запрошуємо майбутніх абітурієнтів ** month!</p>
-        </article>
-        <article>
-          <h3>...</h3>
-          <p>blablabla</p>
-        </article>
+      <div class="news-card">
+        <div class="image-wrapper">
+          <img src="images/image4.png" alt="News">
+        </div>
+        <div class="content-wrapper">
+          <h3>
+            fkgjfhtioghofhfjfo
+          </h3>
+          <p>
+            qwertyuioppkfjvnd
+          </p>
+          <div class="news-date">07 Jan 2025</div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="image-wrapper">
+          <img src="images/image.png" alt="News">
+        </div>
+        <div class="content-wrapper">
+          <h3>
+            fkgjfhtioghofhfjfo
+          </h3>
+          <p>
+            qwertyuioppkfjvnd
+          </p>
+          <div class="news-date">07 Jan 2025</div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="image-wrapper">
+          <img src="images/image (1).png" alt="News">
+        </div>
+        <div class="content-wrapper">
+          <h3>
+            fkgjfhtioghofhfjfo
+          </h3>
+          <p>
+            qwertyuioppkfjvnd
+          </p>
+          <div class="news-date">07 Jan 2025</div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="image-wrapper">
+          <img src="images/image (2).png" alt="News">
+        </div>
+        <div class="content-wrapper">
+          <h3>
+            fkgjfhtioghofhfjfo
+          </h3>
+          <p>
+            qwertyuioppkfjvnd
+          </p>
+          <div class="news-date">07 Jan 2025</div>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="more-news">
+        <a href="index.html">Більше новин</a>
       </div>
       <video autoplay muted loop controls>
         <source src="video/video.mp4" type="video/mp4">
@@ -153,10 +246,36 @@
 
 <!--end-->
   <footer>
-    <img src="images/logo.svg" alt="Логотип кафедри">
-    <p>Адреса: м. Харків.вул. Вадима Манька,17 НАУ ім. О.О.Зеленського "ХАІ" Кафедра інформаційно-комунікаційних тезнологій №504 | Телефон: +38 (099) 502-57-75 | Пошта: mailto:k504@khai.edu</p>
+    <div class="footer-address footer-column">
+      <p>61878, Харків, вул. Вадима Манька, 17</p>
+      <p>НАУ ім. О.О. Зеленського "ХАІ"</p>
+      <p>Кафедра інформаційно-комунікаційних технологій №584</p>
+    </div>
+    <div class="footer-media footer-column">
+      <div class="footer-logo">
+        <img src="images/logo.svg" alt="footer logo">
+      </div>
+      <div class="copy">
+        <p>2025 All right reserved</p>
+      </div>
+      <div class="social"></div>
+      <ul>
+        <li class="tel"><a href><img src="images/tel.svg" alt="telegram"></a></li>
+        <li class="viber"><a href><img src="images/viber.svg" alt="viber"></a></li>
+        <li class="fb"><a href><img src="images/fb.svg" alt="facebook"></a></li>
+        <li class="in"><a href><img src="images/in.svg" alt="linkedin"></a></li>
+        <li class="instagram"><a href><img src="images/instagram.svg" alt="instagram"></a></li>
+      </ul>
+    </div>
+    <div class="footer-contact footer-column">
+      <div class="phone">
+        <p>(057)-788-43-52</p>
+        <p>(099)-582-57-75</p>
+      </div>
+      <div class="email">
+        <a href="mailto:k584@khai.edu">k584@khai.edu</a>
+      </div>
+    </div>
   </footer>
-
-
   </body>
   </html>
