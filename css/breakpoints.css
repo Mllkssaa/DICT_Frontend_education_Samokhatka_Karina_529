@@ -1,0 +1,11 @@
+:root {
+    --mobile: 360px;
+    --widemob: 480px;
+    --widestmob: 640px;
+    --tab: 768px;
+    --desk: 1024px;
+    --mediumdesk: 1100px;
+    --widedesk: 1280px;
+    --widestdesk: 1440px;
+    --wideHome: 1568px;
+}

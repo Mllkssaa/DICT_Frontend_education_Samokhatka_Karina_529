@@ -1,0 +1,22 @@
+/* Typography styles */
+
+:root {
+    --h1-size: 42px;
+    --h2-size: 32px;
+    --h3-size: 26px;
+    --h4-size: 20px;
+    --p-size: 16px;
+    --line-height: 1.5;
+}
+
+/* Заголовки */
+h1 { font-size: var(--h1-size); line-height: var(--line-height); }
+h2 { font-size: var(--h2-size); line-height: var(--line-height); }
+h3 { font-size: var(--h3-size); line-height: var(--line-height); }
+
+/* Основний текст */
+p {
+    font-size: var(--p-size);
+    line-height: var(--line-height);
+}
+

@@ -1,0 +1,5 @@
+#specialties .cards-wrapper .card {
+    padding: var(--base-padding);
+    border-radius: 20px;
+    border: 1px solid var(--grey);
+}
