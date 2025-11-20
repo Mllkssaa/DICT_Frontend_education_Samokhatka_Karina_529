@@ -54,7 +54,7 @@
         color: white;
     }
 
-    .banner text {
+    .banner-text {
         max-width: 50%;
     }
 
@@ -82,7 +82,7 @@
         background-color: #be123c;
     }
 
-    .banner-image img {
+    .banner-img img {
         max-width: 350px;
         border-radius: 10px;
     }
